@@ -1,0 +1,62 @@
+﻿.balon {
+    /*z-index: -1;*/
+    overflow: hidden;
+    /* transition: transform 1.5s linear;*/
+    position: absolute;
+    /*cursor: pointer;*/
+}
+
+h3 {
+    font-style: italic;
+}
+
+nav {
+    z-index: 999;
+}
+
+#y {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+body {
+    /*הסתרת גלגלת*/
+    overflow: hidden;
+    /*תמונת רקע*/
+    background-image: url('images/r.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    /* cursor: url("custom.gif"), url("custom.cur"), default;*/
+    /*z-index: -2;*/
+}
+
+#div1 {
+    width: 150px;
+    height: 150px;
+    /* padding: 10px;*/
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+    border-style: inset;
+}
+
+#a {
+    overflow: hidden;
+}
+
+#start {
+    /* margin: auto;*/
+    /* width:100%;*/
+    display: block;
+    margin-left: 750px;
+}
+
+#wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
